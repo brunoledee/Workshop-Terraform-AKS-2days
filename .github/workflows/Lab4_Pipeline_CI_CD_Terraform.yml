@@ -41,9 +41,10 @@ jobs:
       - name: Archive tfplan as artifacts
         uses: actions/upload-artifact@v3
         with:
+          if-no-files-found: error
           name: monplan.tfplan
           path: |
-            monplan.tfplan
+            ./monplan.tfplan
 
   Apply-Terraform:
     runs-on: ubuntu-latest
