@@ -49,6 +49,7 @@ jobs:
   Apply-Terraform:
     runs-on: ubuntu-latest
     needs: Build-Terraform
+    environment: production
 
     steps:
 
