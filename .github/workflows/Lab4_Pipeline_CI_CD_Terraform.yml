@@ -44,7 +44,7 @@ jobs:
           if-no-files-found: error
           name: monplan.tfplan
           path: |
-            ./monplan.tfplan
+            ./Terraform/Lab4_Pipeline_CI_CD_Terraform/monplan.tfplan
 
   Apply-Terraform:
     runs-on: ubuntu-latest
