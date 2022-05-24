@@ -36,6 +36,7 @@ jobs:
 #            --ignore-test container-resources \
 #            --ignore-test pod-probes \
       - name: Test ls
+        if: ${{ failure() }}
         run: |
           ls
 
