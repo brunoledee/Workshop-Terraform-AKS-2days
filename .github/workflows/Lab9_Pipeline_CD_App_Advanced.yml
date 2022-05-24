@@ -38,7 +38,7 @@ jobs:
       - name: Test ls
         if: ${{ failure() }}
         run: |
-          ls
+          ls ./Kubernetes/Manifests/coolapi/
 
       - name: Create issue
         if: ${{ failure() }} # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
