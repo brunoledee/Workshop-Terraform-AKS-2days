@@ -31,7 +31,7 @@ jobs:
             --ignore-test container-security-context-user-group-id \
             --ignore-test container-security-context-readonlyrootfilesystem \
             --ignore-test container-ephemeral-storage-request-equals-limit \
-            --ignore-test container-ephemeral-storage-request-and-limit
+            --ignore-test container-ephemeral-storage-request-and-limit | > output.kube-score
 
 #            --ignore-test container-resources \
 #            --ignore-test pod-probes \
