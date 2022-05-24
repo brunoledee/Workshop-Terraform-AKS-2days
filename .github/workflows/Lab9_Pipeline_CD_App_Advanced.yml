@@ -33,7 +33,7 @@ jobs:
             --ignore-test container-ephemeral-storage-request-equals-limit \
             --ignore-test container-ephemeral-storage-request-and-limit \
           | > output.kube-score \
-          ll
+          ls -al
 
 #            --ignore-test container-resources \
 #            --ignore-test pod-probes \
