@@ -99,7 +99,7 @@ variable "defaultpool-vmsize" {
   # check if the choosen size is available in Azure region you selected : 
   # az vm list-sizes -l westus2 -o table
   type    = string
-  default = "Standard_D2s_v5"
+  default = "Standard_B2ms"
 }
 
 variable "defaultpool-ostype" {
